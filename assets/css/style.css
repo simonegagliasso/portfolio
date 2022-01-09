@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bio{
+  display: block;
+  border: 3px solid red;
+  margin-top:20PX;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50Px;
+}
+
+.miaimmagine{
+  display: block;
+  border: 3px solid red;
+  margin:0 auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+h2{
+  display:block;
+  text-align: center;
+}
+
+a:link,
+a:visited{
+  color: #5D6063;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header{
+  position: fixed;
+  display: flex;
+
+  width: 100%;
+  padding: 12px;
+  background: #D6E9FE;
+}
+
+.menu{
+  margin-top: 15 px;
+}
+
+.menu > li{
+  display: inline;
+  margin-right: 50px;
+}
+
+.menu > li:last-of-type{
+  margin-right:0;
+}
+
+body  {
+    background: #C5CDE0; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left,#C5CDE0,#5E6F9F); /*Safari 5.1-6*/
+    background: -o-linear-gradient(right,#C5CDE0,#5E6F9F); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(right,#C5CDE0,#5E6F9F); /*Fx 3.6-15*/
+    background: linear-gradient(to right, #C5CDE0, #5E6F9F); /*Standard*/
+  }
