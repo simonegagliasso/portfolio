@@ -66,3 +66,13 @@ body  {
     background: -moz-linear-gradient(right,#C5CDE0,#5E6F9F); /*Fx 3.6-15*/
     background: linear-gradient(to right, #C5CDE0, #5E6F9F); /*Standard*/
   }
+
+  .link1:visited{
+    color: red;
+  }
+.link1:hover{
+  text-decoration: underline;
+}
+  .link1{
+    color: blue;
+  }
