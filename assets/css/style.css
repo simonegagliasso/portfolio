@@ -59,7 +59,7 @@ a:hover {
 }
 
 body  {
-  font-size: 30px;
+  font-size: 35px;
     background: #C5CDE0; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(left,#C5CDE0,#5E6F9F); /*Safari 5.1-6*/
     background: -o-linear-gradient(right,#C5CDE0,#5E6F9F); /*Opera 11.1-12*/
